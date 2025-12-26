@@ -57,7 +57,7 @@ google-genai==1.3.0
     # via -r cookbook/examples/apps/tic_tac_toe/requirements.in
 groq==0.18.0
     # via -r cookbook/examples/apps/tic_tac_toe/requirements.in
-h11==0.14.0
+h11==0.16.0
     # via httpcore
 httpcore==1.0.7
     # via httpx
@@ -114,7 +114,7 @@ pandas==2.2.3
     # via streamlit
 pathlib==1.0.1
     # via -r cookbook/examples/apps/tic_tac_toe/requirements.in
-pillow==11.1.0
+pillow==11.3.0
     # via
     #   -r cookbook/examples/apps/tic_tac_toe/requirements.in
     #   streamlit
@@ -122,7 +122,7 @@ pip==25.0.1
     # via pip-tools
 pip-tools==7.4.1
     # via -r cookbook/examples/apps/tic_tac_toe/requirements.in
-protobuf==5.29.3
+protobuf==5.29.5
     # via streamlit
 pyarrow==19.0.1
     # via streamlit
@@ -170,7 +170,7 @@ referencing==0.36.2
     # via
     #   jsonschema
     #   jsonschema-specifications
-requests==2.32.3
+requests==2.32.4
     # via
     #   google-genai
     #   streamlit
@@ -186,7 +186,7 @@ rpds-py==0.23.1
     #   referencing
 rsa==4.9
     # via google-auth
-setuptools==75.8.0
+setuptools==78.1.1
     # via pip-tools
 shellingham==1.5.4
     # via typer
@@ -208,7 +208,7 @@ toml==0.10.2
     # via streamlit
 tomli==2.2.1
     # via agno
-tornado==6.4.2
+tornado==6.5
     # via streamlit
 tqdm==4.67.1
     # via openai
@@ -230,7 +230,7 @@ typing-extensions==4.12.2
     #   typer
 tzdata==2025.1
     # via pandas
-urllib3==2.3.0
+urllib3==2.5.0
     # via requests
 websockets==14.2
     # via google-genai
